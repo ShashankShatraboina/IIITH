@@ -274,11 +274,11 @@ The primary objective was to implement a neural language model that learns to pr
 
 ### 1.3 Model Architecture
 The implementation uses an LSTM-based language model with the following components:
-1. **Embedding Layer**: Maps character indices to dense vectors
-2. **LSTM Layers**: Captures sequential dependencies
-3. **Dropout Layer**: Regularization to prevent overfitting
-4. **Linear Layer**: Projects to vocabulary space
-5. **Softmax**: Converts to probability distribution
+1. Embedding Layer: Maps character indices to dense vectors
+2. LSTM Layers: Captures sequential dependencies
+3. Dropout Layer: Regularization to prevent overfitting
+4. Linear Layer: Projects to vocabulary space
+5. Softmax: Converts to probability distribution
 
 ---
 
@@ -395,5 +395,6 @@ Analysis: The balanced configuration with dropout regularization learns meaningf
 Configuration	Final Val Loss	Final Perplexity	Best Val Loss	Best Perplexity
 Underfitting	3.8-4.2	45-65	3.7-4.1	40-60
 Overfitting	2.5-3.0	12-20	2.2-2.7	9-15
+
 
 
