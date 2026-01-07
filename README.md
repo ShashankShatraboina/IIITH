@@ -4,7 +4,7 @@ Repo
 
 # Install dependencies
 pip install -r requirements.txt
-Option 2: Google Colab
+: Google Colab
 python
 # Run in Google Colab cell
 !pip install torch torchvision torchaudio
@@ -395,4 +395,5 @@ Analysis: The balanced configuration with dropout regularization learns meaningf
 Configuration	Final Val Loss	Final Perplexity	Best Val Loss	Best Perplexity
 Underfitting	3.8-4.2	45-65	3.7-4.1	40-60
 Overfitting	2.5-3.0	12-20	2.2-2.7	9-15
+
 
