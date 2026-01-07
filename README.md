@@ -243,27 +243,6 @@ Distributed training
 
 Hyperparameter optimization
 
-References
-PyTorch Documentation: https://pytorch.org/docs/
-
-"Pride and Prejudice" by Jane Austen
-
-Original Assignment Guidelines
-
-License
-This project is created for the IIIT Hyderabad internship assignment evaluation.
-
-Contact
-For questions or clarifications:
-
-Name: Shashank
-
-Email: [Your Email]
-
-GitHub: [Your GitHub Profile]
-
-text
-
 ### File 4: `report.md`
 ```markdown
 # Neural Language Model Training Report
@@ -416,3 +395,4 @@ Analysis: The balanced configuration with dropout regularization learns meaningf
 Configuration	Final Val Loss	Final Perplexity	Best Val Loss	Best Perplexity
 Underfitting	3.8-4.2	45-65	3.7-4.1	40-60
 Overfitting	2.5-3.0	12-20	2.2-2.7	9-15
+
